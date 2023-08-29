@@ -65,7 +65,7 @@
                 <li class = "<?php if($halaman == 'data-kategori'){echo 'active';}?>"><a class="nav-link" href="<?= base_url('data-kategori')?>"><i class="fas fa-calendar-check"></i> <span>Data Kategori</span></a></li>
                 <li class = "<?php if($halaman == 'data-lowongan'){echo 'active';}?>"><a class="nav-link" href="<?= base_url('data-lowongan')?>"><i class="fas fa-calendar-check"></i> <span>Data Lowongan</span></a></li>
                 
-                <li class="menu-header">Data Proses Wawancara</li>
+                <li class="menu-header">Data Proses Seleksi</li>
                 <li class = "<?php if($halaman == 'data-seleksi-administrasi'){echo 'active';}?>"><a class="nav-link" href="<?= base_url('data-seleksi-administrasi')?>"><i class="fas fa-calendar-check"></i> <span>Seleksi Administrasi</span></a></li>
                 <li class = "<?php if($halaman == 'data-wawancara'){echo 'active';}?>"><a class="nav-link" href="<?= base_url('data-wawancara')?>"><i class="fas fa-calendar-check"></i> <span>Data Wawancara</span></a></li>
                 <li class = "<?php if($halaman == 'data-test-tulis'){echo 'active';}?>"><a class="nav-link" href="<?= base_url('data-test-tulis')?>"><i class="fas fa-calendar-check"></i> <span>Data Test Tulis</span></a></li>

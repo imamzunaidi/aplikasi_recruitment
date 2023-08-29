@@ -19,13 +19,13 @@ class Templates
         $this->ci->load->view('templates_admin/v_admin_script', $data);
     }
 
-    public function calon($content, $data = Null)
+    public function pelamar($content, $data = Null)
     {
-        $this->ci->load->view('templates_calon/v_header');
-        $this->ci->load->view('templates_calon/v_sidebar', $data);
-        $this->ci->load->view('calon/' . $content, $data);
-        $this->ci->load->view('templates_calon/v_footer');
-        $this->ci->load->view('templates_calon/v_script', $data);
+        $this->ci->load->view('templates_pelamar/v_header');
+        $this->ci->load->view('templates_pelamar/v_sidebar', $data);
+        $this->ci->load->view('pelamar/' . $content, $data);
+        $this->ci->load->view('templates_pelamar/v_footer');
+        $this->ci->load->view('templates_pelamar/v_script', $data);
     }
 
 
@@ -34,9 +34,9 @@ class Templates
         $this->ci->load->view('auth/v_login', $data);
     }
 
-    public function login_siswa($data = Null)
+    public function login_pelamar($data = Null)
     {
-        $this->ci->load->view('auth/v_login_siswa', $data);
+        $this->ci->load->view('auth/v_login_pelamar', $data);
     }
 
     public function registerasi_penjual($data = Null)

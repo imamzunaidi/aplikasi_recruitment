@@ -10,9 +10,9 @@ class Auth extends CI_Controller {
         $this->templates->login();
     }
 
-    public function login_siswa()
+    public function login_pelamar()
     {
-        $this->templates->login_siswa();
+        $this->templates->login_pelamar();
     }
 
     public function proses_login_siswa(){
@@ -32,9 +32,9 @@ class Auth extends CI_Controller {
         
     }
     
-    public function register_siswa()
+    public function register_pelamar()
     {
-        $this->load->view('auth/v_register_siswa');
+        $this->load->view('auth/v_register_pelamar');
     }
 
     public function proses_register(){
@@ -46,7 +46,6 @@ class Auth extends CI_Controller {
             $data = array(
                 'nama_depan' => $this->input->post('nama_depan', TRUE),
                 'nama_belakang' => $this->input->post('nama_belakang', TRUE),
-             
                 'password' => md5($this->input->post('password', TRUE)),
                 'username' => $this->input->post('username', TRUE),
             );
@@ -58,7 +57,7 @@ class Auth extends CI_Controller {
             $this->session->set_userdata('id_pengguna', $data_login->id_pengguna);
             $this->session->set_userdata('nama_depan', $data_login->nama_depan);
 
-            $this->flash_message->success('Register Berhasil', 'login-siswa');
+            $this->flash_message->success('Register Berhasil', 'login-pelamar');
         }
         
     }

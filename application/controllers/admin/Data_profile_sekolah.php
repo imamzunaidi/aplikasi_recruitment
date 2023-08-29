@@ -51,7 +51,7 @@ class Data_profile_sekolah extends CI_Controller {
                 'facebook' => $this->input->post('facebook', TRUE),
                 'alamat' => $this->input->post('alamat', TRUE),
                 'instagram' => $this->input->post('instagram', TRUE),
-                'kd_admin' => $this->session->userdata('id_users'),
+                'id_users' => $this->session->userdata('id_users'),
             );
         }else{
             $data = array(
@@ -63,13 +63,14 @@ class Data_profile_sekolah extends CI_Controller {
                 'deskripsi' => $this->input->post('deskripsi', TRUE),
                 'facebook' => $this->input->post('facebook', TRUE),
                 'instagram' => $this->input->post('instagram', TRUE),
-                'kd_admin' => $this->session->userdata('id_users'),
+                'id_users' => $this->session->userdata('id_users'),
                 'alamat' => $this->input->post('alamat', TRUE),
                 'gambar_sekolah' => $result_foto,
             );
         }
 
         $this->M_profile_sekolah->update($data, $kd_profile_sekolah);
+        // die();
         $this->flash_message->success('Update', 'data-profile-sekolah');
        
     }

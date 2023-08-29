@@ -15,14 +15,14 @@ class Home extends CI_Controller {
             'data_informasi' => $this->M_informasi->get_all(),
 
         );
-        $this->templates->calon('v_home', $data);
+        $this->templates->pelamar('v_home', $data);
     }
 
     public function detail_informasi($kd_informasi){
         $data = array(
             'informasi' => $this->M_informasi->get_by_id($kd_informasi),
         );
-        $this->templates->calon('v_detail_informasi', $data);
+        $this->templates->pelamar('v_detail_informasi', $data);
     }
 
     public function insert_pesan(){

@@ -158,5 +158,6 @@ $autoload['model'] = array(
     'M_seleksi_administrasi',
     'M_hasil_test',
     'M_hasil',
+    'M_berkas',
     'M_detail_applay'
 );

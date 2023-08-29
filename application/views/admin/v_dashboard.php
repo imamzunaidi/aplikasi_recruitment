@@ -53,7 +53,7 @@
                     </div>
                     <div class="card-wrap">
                         <div class="card-header">
-                        <h4>Data Siswa Keterima</h4>
+                        <h4>Data Pelamar Keterima</h4>
                         </div>
                         <div class="card-body">
                            
@@ -69,7 +69,7 @@
                     </div>
                     <div class="card-wrap">
                         <div class="card-header">
-                        <h4>Jumlah Siswa Ketolak</h4>
+                        <h4>Jumlah Pelamar Ketolak</h4>
                         </div>
                         <div class="card-body">
                             

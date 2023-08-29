@@ -60,8 +60,8 @@ $route['cetak-berkas'] = 'calon/data_detail_berkas/cetak_berkas';
 $route['riwayat-pendaftaran'] = 'calon/data_detail_berkas/riwayat_pendaftaran';
 
 // Auth
-$route['login-siswa'] = 'auth/login_siswa';
-$route['register-siswa'] = 'auth/register_siswa';
+$route['login-pelamar'] = 'auth/login_pelamar';
+$route['register-pelamar'] = 'auth/register_pelamar';
 $route['lengkapi-biodata'] = 'auth/lengkapi_biodata';
 $route['lengkapi-berkas'] = 'auth/lengkapi_berkas';
 
@@ -89,6 +89,7 @@ $route['data-tidak-lolos'] = 'admin/data_tidak_lolos';
 $route['data-test-tulis'] = 'admin/data_test_tulis';
 $route['data-pelamar'] = 'admin/data_pelamar';
 
+$route['find-job'] = 'pelamar/findjob';
 $route['data-lowongan'] = 'admin/data_lowongan';
 $route['data-kategori'] = 'admin/data_kategori';
 

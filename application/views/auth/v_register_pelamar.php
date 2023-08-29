@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>RA Plus Rabbani </title>
+  <title>SMK AL-MUHTADIN</title>
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -28,7 +28,7 @@
             </div>
 
             <div class="card card-primary">
-              <div class="card-header"><h4>Register</h4></div>
+              <div class="card-header"><h4>Register Pelamar</h4></div>
 
               <div class="card-body">
                 <form method="POST" action = "<?= base_url('auth/proses_register')?>">
